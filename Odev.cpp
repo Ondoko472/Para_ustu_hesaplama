@@ -6,10 +6,10 @@ int main() {
     double urun_tutari = 0.0;
     double odenen_para = 0.0;
 
-    printf("Urun tutarini girin (TL): ");
+    printf("Urun tutarini girin : ");
     scanf("%lf", &urun_tutari);
     
-    printf("Odenen parayi girin (TL): ");
+    printf("Odenen parayi girin : ");
     scanf("%lf", &odenen_para);
     
     int toplam_kurus = (int)((odenen_para - urun_tutari) * 100.0 + 0.5);
